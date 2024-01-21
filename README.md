@@ -1,3 +1,5 @@
 # Tweet-Clone
 
-A clone of a twitter tweet interface to practice CSS Flexbox.
+Clone of twitter post interface to practice CSS Flexbox.
+
+- Surge: [tweet-clone-demo.surge.sh](tweet-clone-demo.surge.sh)
