@@ -2,6 +2,13 @@ body {
     background-color: #000000;
 }
 
+.page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tweet-flex-container {
     display: flex;
     flex-direction: row;
@@ -75,6 +82,10 @@ body {
     padding: 0;
 }
 
+.hashtags {
+    margin-bottom: 1.2rem;   
+}
+
 .fa-ellipsis {
     color: rgb(113,118,123);
     margin-left: 273px;
@@ -100,7 +111,7 @@ body {
 
 /* Bottom Bar */
 
-.flex-container {
+.reaction-buttons-container {
     justify-content:space-around;
     align-items:center;
     display: flex;
@@ -118,7 +129,7 @@ body {
     
 }
 
-.flex-container div {
+.reaction-buttons-container div {
     margin: 0px;
     text-align: center;
     /*padding-right: 96.5px;*/
@@ -129,7 +140,7 @@ body {
    
 }
 
-.flex-container a {
+.reaction-buttons-container a {
     display:block;
     height:100%;
 }
